@@ -1,5 +1,4 @@
-import { Inter } from 'next/font/google'
-import { PDFViewer } from '@react-pdf/renderer';
+import { PDFViewer } from '@react-pdf/renderer/lib/react-pdf.browser.cjs.js';
 import { PDFContent } from '@/src/components/PDFContent';
 
 export default function Home() {
