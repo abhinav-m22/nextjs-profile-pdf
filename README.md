@@ -1,8 +1,36 @@
+## A profile page UI in Next.js. 
+The profile page UI includes the following components:
+1. Profile picture
+2. Name
+3. Location
+4. Company
+5. Designation
+6. Social icons (Instagram, YouTube, Facebook, TikTok)
+7. A button that saves the UI as a PDF.
+8. The social-icon links are active and clickable in the downloaded PDF.
+
+## Tech Stack Used:
+1. Next.js
+2. React.js (For components)
+3. Tailwind CSS (For Styling)
+4. react-pdf for PDF generation
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+
+Install the Project in the local system and cd to that directory
+Run the following command to install all the dependencies
+```bash
+npm install
+# or
+npm i
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
